@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,43 @@
   <title>Weather App</title>
 </head>
 <body>
+  <div class="container">
+    <div class="search-box">
+      <i class="fa-solid fa-location-dot"></i>
+      <input type="text" placeholder="Sua Cidade">
+      <button class="fa-solid fa-magnifying-glass"></button>
+    </div>
+
+    <div class="not-found">
+      <img src="./img/404.png" alt="imagem: página não encontrada">
+      <p>Oops! Localização Invalida 👀</p>
+    </div>
+
+    <div class="weather-box">
+      <img src="" alt="">
+      <p class="temperature"></p>
+      <p class="description"></p>
+    </div>
+
+    <div class="weather-details">
+      <div class="humidity">
+        <i class="fa-solid fa-water"></i>
+        <div class="text">
+          <span></span>
+          <p>humidity</p>
+        </div>
+      </div>
+
+      <div class="wind">
+        <i class="fa-solid fa-wind"></i>
+        <div class="text">
+          <span></span>
+          <p>wind Speed</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
   
   <!-- scripts------------------------------------- -->   
   <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
