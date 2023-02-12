@@ -1,3 +1,4 @@
+//Notas escolares
 let nota = 100;
 
 if(nota >= 90){
@@ -14,7 +15,7 @@ if(nota >= 90){
   console.log("nota não identificada tente novamente mais tarde")
 }
 
-//-----------------------------------------------------------------
+//-----------Fluxo de caixa familiar
 let familia = {
   receita: [1500, 3000, 700],
   despesa: [200, 400, 60, 50, 100, 40]
@@ -41,3 +42,22 @@ function balanco(){
   }
 }
 balanco()
+
+//----------------------------------C para F---------
+let celcius = "30";
+let fahr = "250";
+
+
+function celforFah(){
+  let fah = Number(celcius) * 9/5 +32;
+  return fah;
+}
+function fahforCel(){
+  let cel = (Number(fahr) - 32) * 5/9;
+  return cel;
+}
+
+console.log(celforFah());
+console.log(fahforCel())
+
+//busca dados em array=================================
