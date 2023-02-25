@@ -44,6 +44,9 @@ html, body{
   cursor: pointer;
   text-transform: uppercase;
 }
+.container .edit:hover{
+  text-decoration: underline;
+}
 .container .star-widget input{
   display: none;
 }
