@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@100;300;500;900&display=swap');
-
 *{
   margin: 0;
   padding: 0;
@@ -57,7 +56,6 @@ html, body{
   float: right;
   transition: all 0.2s ease;
 }
-
 input:not(:checked) ~ label:hover,
 input:not(:checked) ~ label:hover ~ label{
   color: #fd4;
@@ -72,21 +70,20 @@ input#rate-5:checked ~ label{
   color: #fe7;
   text-shadow: 0 0 20px #952;
 }
-
 #rate-1:checked ~ form header::before{
-  content: "Não gostei";
+  content: "Odiei 😣";
 }
 #rate-2:checked ~ form header::before{
-  content: "mais ou menos";
+  content: "Não gostei 😐";
 }
 #rate-3:checked ~ form header::before{
-  content: "bom";
+  content: "Bom 🙂";
 }
 #rate-4:checked ~ form header::before{
-  content: "Muito bom";
+  content: "Muito bom 😃";
 }
 #rate-5:checked ~ form header::before{
-  content: "Amei";
+  content: "Amei 😄";
 }
 .container form{
   display: none;
@@ -103,7 +100,6 @@ form header{
   text-align: center;
   transition: all 0.2s ease;
 }
-
 form .textarea{
   height: 100px;
   width: 100%;
@@ -140,4 +136,3 @@ form .btn button{
 form .btn button:hover{
   background: #1b1b1b;
 }
-
